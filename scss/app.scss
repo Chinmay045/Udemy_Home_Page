@@ -1,0 +1,11 @@
+$red :red;
+
+body{
+    background-color: $red;
+}
+
+h1{
+    display: flex;
+    transition: all .3s ease;
+}
+

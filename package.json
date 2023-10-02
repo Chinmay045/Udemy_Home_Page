@@ -1,0 +1,20 @@
+{
+  "name": "udemy",
+  "version": "1.0.0",
+  "description": "Package JSON for my Flexbox andd SAAS project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chinmay",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-sass": "^5.1.0"
+  },
+  "devDependencies": {
+    "node-sass": "^9.0.0",
+    "sass": "^1.68.0"
+  }
+}
