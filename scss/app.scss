@@ -1,11 +1,13 @@
-$red :red;
+@import 'variables';
+@import 'mixins';
 
-body{
-    background-color: $red;
+
+
+ body{
+    font-family: $mainFont;
 }
 
-h1{
-    display: flex;
-    transition: all .3s ease;
+h2{
+    color: $white;
 }
 
