@@ -6,8 +6,3 @@ body {
 div {
   box-sizing: hello;
 }
-
-.header {
-  display: flex;
-  justify-content: space-between;
-}
