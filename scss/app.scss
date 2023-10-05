@@ -43,5 +43,9 @@ div{
         right: 0;
         padding: 1rem;
         width: 400px;
+
+        .button{
+            @include button($secondary);
+        }
     }
 }
