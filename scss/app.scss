@@ -1,7 +1,21 @@
 @import '_variables';
 @import '_mixins';
 
+html{
+     @include box-sizing(border-box);
+}
+*,
+*:after,
+*:before{
+     @include box-sizing(border-box);
+
+}
 
 body {
      font-family: $mainFont;
+}
+
+header{
+     display: flex;
+     justify-content: space-between;
 }
