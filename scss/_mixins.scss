@@ -2,6 +2,8 @@
     box-sizing:$box-model;
 }
 
+
+
 @mixin button($background-color){
     background-color: $background-color;
     padding: .5rem 1rem;
@@ -10,3 +12,25 @@
     color: $white;
     text-decoration: none;
 }
+
+
+@mixin phone{
+    @media (min-width:{$phone}){
+@content;
+    }
+}
+
+
+@mixin tablet{
+    @media (min-width:{$tablet}){
+@content;
+    }
+}
+
+
+@mixin desktop{
+    @media (min-width:{$desktop@content;}){
+@content;
+    }
+}
+
