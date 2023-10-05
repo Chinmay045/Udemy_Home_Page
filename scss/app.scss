@@ -15,6 +15,9 @@ html{
     font-family: $mainFont;
 }
 
+img{
+    max-width: 100%;
+}
 
 div{
    @include box-sizing(hello);
@@ -122,3 +125,52 @@ div{
 
     }
 }
+
+.course-list{
+    display: flex;
+    margin-top: 5rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: start;
+    
+    .course{
+        flex: 0 0 calc(50%-1rem);
+        @include tablet{
+            flex: 0 0 calc(33.3% -1rem);
+        }
+        @include desktop{
+            flex: 0 0 calc(25% -1rem);
+        }
+        background-color: $white;
+        margin-bottom: 1rem;
+        border: 1px solid darken($gray,50%);
+
+        .course-info{
+            padding: 1rem;
+            h4{
+                margin: 0;
+            }
+
+            .price{
+                display: flex;
+                justify-content: space-between;
+                .regular{
+                    text-decoration: line-through;
+                }
+                .offer{
+                    font-size: 1.4rem;
+                    font-weight: 700;
+                }
+
+            }
+
+            .button{
+                @include button($primary);
+            }
+        }
+
+    }
+
+
+}
+
