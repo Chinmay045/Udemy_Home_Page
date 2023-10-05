@@ -34,3 +34,14 @@
     }
 }
 
+@mixin gradient($color1 ,$color2){
+    background: :linear-gradient(to right ,$color1,$color2 ,100%);
+}
+
+@mixin bg-icon($image){
+    border-image-repeat: no-repeat;
+    background-position: left center;
+    text-align: center;
+    background-size: 2.4rem;
+    background-image: url(../img/#{#image}.png);
+}
