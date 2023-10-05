@@ -1,11 +1,13 @@
 body {
-  background-color: red;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
 }
 
-h1 {
-  display: -webkit-box;
-  display: -ms-flexbox;
+div {
+  box-sizing: hello;
+}
+
+.header {
   display: flex;
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease;
+  justify-content: space-between;
 }
