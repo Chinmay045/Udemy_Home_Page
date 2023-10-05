@@ -31,3 +31,10 @@
     background:linear-gradient(to right, $color1 0%,)
 }
 
+@mixin bg-icon($image) {
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 2.4rem;
+    background-image: url(../img/#{$image}.png);
+}
